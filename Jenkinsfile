@@ -7,7 +7,7 @@ pipeline {
       }
     }
 
-    stage('Automation_Tests') {
+    stage('Automation_Pipeline') {
       parallel {
         stage('Performance_Test') {
           steps {
